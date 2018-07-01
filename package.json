@@ -1,0 +1,26 @@
+{
+  "name": "siteparaotimizar",
+  "version": "1.0.0",
+  "description": "site estatico",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianaLobato/siteParaOtimizar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianaLobato/siteParaOtimizar/issues"
+  },
+  "homepage": "https://github.com/JulianaLobato/siteParaOtimizar#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-pagespeed": "^2.0.1",
+    "ngrok": "^3.0.1"
+  }
+}
