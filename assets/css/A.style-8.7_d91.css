@@ -790,7 +790,7 @@ img{
 }
 .td-header-gradient:before{
     content:"";
-    background:transparent url(data:image/png;
+    background:transparent url(data:image/png);
     base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAMBAMAAABRpcpkAAAAD1BMVEUAAAAAAAAAAAAAAAAAAABPDueNAAAABXRSTlMGAhQQCyEd++8AAAAUSURBVAjXY1AAQgMgdABCCBAAQQAT6AFRBPHcWgAAAABJRU5ErkJggg==);
     width:100%;
     height:12px;
