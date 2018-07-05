@@ -82,49 +82,6 @@ module.exports = function (grunt) {
                 }
             }
         }, //connect
-
-        // ngrok: {
-        //     options: {
-        //         authToken: process.env.AUTHTOKEN,
-        //         onConnected: function (url) {
-        //             var results = grunt.config.get('results');
-        //             results.push({
-        //                 task: this,
-        //                 url: url
-        //             });
-        //             grunt.config.set('results', results);
-        //         }
-        //     },
-        //     tunnels: {
-        //         basicHttp: {
-        //             proto: 'http',
-        //             addr: 50000
-        //         },
-        //         tcp: {
-        //             name: 'tcp',
-        //             proto: 'tcp',
-        //             addr: 50000
-        //         },
-        //     }
-        // }, //ngrok
-
-        // pagespeed: {
-        //     options: {
-        //         nokey: true,
-        //         locale: "en_GB",
-        //         threshold: 40
-        //     },
-        //     local: {
-        //         options: {
-        //             strategy: "desktop"
-        //         }
-        //     },
-        //     mobile: {
-        //         options: {
-        //             strategy: "mobile"
-        //         }
-        //     }
-        // }//pagespeed
     }); 
 
     // carrega plugins
@@ -134,20 +91,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    //grunt.loadNpmTasks('grunt-ngrok');
 
 
     // Register default tasks
     grunt.registerTask('default', ['imagemin', 'cssmin', 'uglify', 'htmlmin']);
     grunt.registerTask('serve', ['connect', 'watch']);
-
-    // grunt.registerTask('testServer', function () {
-    //     require('http').createServer(function (req, res) {
-    //         res.writeHead(200, {
-    //             'Content-Type': 'text/plain'
-    //         });
-    //         res.write('grunt-ngrok');
-    //         res.end();
-    //     }).listen(50000);
-    // });
 };

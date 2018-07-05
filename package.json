@@ -23,8 +23,6 @@
     "grunt-contrib-imagemin": "^2.0.1",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-ngrok": "^0.2.2",
-    "grunt-pagespeed": "^2.0.1",
     "imagemin-mozjpeg": "^7.0.0",
     "load-grunt-tasks": "^4.0.0"
   }
